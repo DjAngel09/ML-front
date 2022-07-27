@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 El backEnd se encuentra el repositorio [https://github.com/DjAngel09/ML-back](https://github.com/DjAngel09/ML-back)
 
+Es necesario descargar el backend y ejecutarlo para que la aplicacion funcione de manera correcta 
+
 ## Available Scripts
 
 In the project directory, you can run:
