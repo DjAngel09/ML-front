@@ -10,11 +10,11 @@ export const CardProduct = ({ product }) => {
     }
 
     return (
-        <div className="row m-0" onClick={onNavigateToProduct} >
-            <div className="col-12 col-md-2 ps-0 pr-16">
+        <div className="row m-0 pointer" onClick={onNavigateToProduct} >
+            <div className="col-12 col-md-3 col-xl-2 ps-0 pr-16">
                 <img src={product.picture} alt={product.title} />
             </div>
-            <div className="col-12 col-md-8 ps-0 pe-0 pt-16 pb-16">
+            <div className="col-12 col-xl-8 col-md-7 ps-0 pe-0 pt-16 pb-16">
                 <p 
                     className='m-0 pb-32 fs-24 fw-normal' 
                 >

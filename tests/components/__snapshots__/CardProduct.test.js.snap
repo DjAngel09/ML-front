@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing in CardProduct components Must match the snapshot 1`] = `
+<div>
+  <div
+    class="row m-0"
+  >
+    <div
+      class="col-12 col-md-2 ps-0 pr-16"
+    >
+      <img
+        alt="Apple iPad Pro De 12.9  Wi-fi  256gb Gris Espacial (5ª Generación)"
+        src="http://http2.mlstatic.com/D_857823-MLA46975173456_082021-I.jpg"
+      />
+    </div>
+    <div
+      class="col-12 col-md-8 ps-0 pe-0 pt-16 pb-16"
+    >
+      <p
+        class="m-0 pb-32 fs-24 fw-normal"
+      >
+        $
+        355,699.00
+        <span
+          class="icon-shipping ps-2"
+        />
+      </p>
+      <p
+        class="m-0 fs-18"
+      >
+        Apple iPad Pro De 12.9  Wi-fi  256gb Gris Espacial (5ª Generación)
+      </p>
+    </div>
+    <div
+      class="col-12 col-md-2 pt-16 pb-16"
+    >
+      <p
+        class="m-0 fs-12"
+      >
+        Barracas
+      </p>
+    </div>
+  </div>
+</div>
+`;

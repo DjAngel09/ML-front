@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing in Bredcrumbs components Must match the snapshot 1`] = `
+<div>
+  <nav
+    aria-label="breadcrumb"
+    class="nav pt-16 pb-16 "
+  >
+    <ol
+      class="breadcrumb"
+    >
+      <li
+        class="breadcrumb-item"
+      >
+        Consolas y Videojuegos
+      </li>
+      <li
+        class="breadcrumb-item"
+      >
+        Accesorios para Consolas
+      </li>
+      <li
+        class="breadcrumb-item"
+      >
+        Para Xbox
+      </li>
+      <li
+        class="breadcrumb-item"
+      >
+        Xbox One
+      </li>
+      <li
+        class="breadcrumb-item"
+      >
+        Controles y Joysticks
+      </li>
+      <li
+        class="breadcrumb-item"
+      >
+        Joysticks
+      </li>
+    </ol>
+  </nav>
+</div>
+`;
+
+exports[`first should first 1`] = `
+<div>
+  <nav
+    aria-label="breadcrumb"
+    class="nav pt-16 pb-16 "
+  >
+    <ol
+      class="breadcrumb"
+    >
+      <li
+        class="breadcrumb-item"
+      >
+        Consolas y Videojuegos
+      </li>
+      <li
+        class="breadcrumb-item"
+      >
+        Accesorios para Consolas
+      </li>
+      <li
+        class="breadcrumb-item"
+      >
+        Para Xbox
+      </li>
+      <li
+        class="breadcrumb-item"
+      >
+        Xbox One
+      </li>
+      <li
+        class="breadcrumb-item"
+      >
+        Controles y Joysticks
+      </li>
+      <li
+        class="breadcrumb-item"
+      >
+        Joysticks
+      </li>
+    </ol>
+  </nav>
+</div>
+`;

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useLocation } from 'react-router-dom';
 import queryString from 'query-string';
 import { useFetchProducts } from '../hooks';
@@ -23,7 +23,7 @@ export const Products = () => {
 
               {
                 products.items.map(product => (
-                  <div className='card-product p-16' key={product.id} >
+                  <div className='card-product p-16 animate__animated animate__fadeIn' key={product.id} role="heading">
                     <CardProduct product={product} />
                     <hr />
                   </div>

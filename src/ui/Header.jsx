@@ -28,7 +28,7 @@ export const Header = () => {
             <img src="/assets/images/Logo_ML.png" alt="" />
           </Link>
           <div className="col-9 col-md-11">
-            <form onSubmit={onSearchSubmit}>
+            <form onSubmit={onSearchSubmit} aria-label="form" >
               <div className="input-group">
                 <input
                   type="text"

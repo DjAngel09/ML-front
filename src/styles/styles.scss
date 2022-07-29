@@ -23,7 +23,7 @@ body{
 .card-product {
   img {
     max-width: 100%;
-    height: 180px;
+    min-width: 180px;
     margin: auto;
     display: block;
   }
@@ -84,8 +84,8 @@ p {
   img {
     display: block;
     margin: auto;
-    height: 680px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 680px;
   }
 }
 

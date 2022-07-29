@@ -14,7 +14,7 @@ export const Product = () => {
           ? (<h2>Cargando...</h2>)
           : <>
             <Bredcrumbs categories={categories} />
-            <div className="card product-details p-16">
+            <div className="card product-details p-16 animate__animated animate__fadeIn">
               <div className="row">
                 <div className="col-12 col-lg-9">
                   <img src={item.picture} alt={item.title} />

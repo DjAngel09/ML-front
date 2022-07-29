@@ -10,14 +10,16 @@ export const useFetchProducts = ( nameProduct ) => {
 
     const [products, setProducts] = useState(defaultProduct);
     const [isLoading, setIsLoading] = useState( true );
-
-    const getData = async() => {
-        const newProducts = await getProducts ( nameProduct );
-        setProducts(newProducts);
-        setIsLoading(false);
-    }
     
     useEffect( () => {
+
+        const getData = async() => {
+            setIsLoading(true);
+            const newProducts = await getProducts ( nameProduct );
+            setProducts(newProducts);
+            setIsLoading(false);
+        }
+
         getData();
     }, [nameProduct]);
 
