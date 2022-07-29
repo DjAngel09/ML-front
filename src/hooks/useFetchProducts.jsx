@@ -19,7 +19,7 @@ export const useFetchProducts = ( nameProduct ) => {
     
     useEffect( () => {
         getData();
-    }, []);
+    }, [nameProduct]);
 
 
 

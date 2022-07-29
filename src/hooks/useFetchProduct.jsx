@@ -31,7 +31,7 @@ export const useFetchProduct = (id) => {
 
     useEffect(() => {
         getData();
-    }, []);
+    }, [id]);
 
 
 
